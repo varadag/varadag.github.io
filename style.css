@@ -1,15 +1,13 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 	
 body{
-	font-family:"Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	max-width:29em;
 	margin:0 auto;
 	padding:2em;
 	line-height:1.4;
 	color:#555;
-	/* While weâ€™re at it, ensure that when elements resize due to the canvas adapting to the browser size, they do so gracefully, with a transition, rather than jarringly snapping into place. */
-	transition:all .2s;
+	transition: all .2s;
 }
 
 
