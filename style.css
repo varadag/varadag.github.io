@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Pro:400,700);
+
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:"Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+	max-width:29em;
+	margin:0 auto;
+	padding:2em;
+	line-height:1.4;
+	color:#555;
+	/* While weâ€™re at it, ensure that when elements resize due to the canvas adapting to the browser size, they do so gracefully, with a transition, rather than jarringly snapping into place. */
+	transition:all .2s;
+}
+
+
+p,ul{
+	margin-bottom:1em;
+}
+
+
+ul{
+	margin-left:2em;
+}
+
+
+h1{
+	font-size:1.6em;
+	font-weight:bold;
+	margin-bottom:1em;
+	color:#222;
+	line-height:1.2em;
+	text-align:center;
+}
+
+body.home h1{
+	text-align:left;
+	margin-bottom:0.2em;
+}
+
+h2{
+	font-size:1em;
+	letter-spacing:0.1em;
+	color:#222;
+	text-align:center;
+	margin:1.6em 0;
+	text-transform:uppercase;
+}
+
+
+
+a{
+	color:blue;
+}
+
+/* At larger screen sizes, bump up the text size. */
+@media (min-width:30em){
+	body{
+		font-size:1.5em;
+	}
+}
+
+@media (min-width:60em){
+	body{
+		margin:2em auto 3em auto;
+	}
+}
+
+body.home{
+	max-width:25em;
+}
+
+
+@media (min-width:75em){
+	body.home{
+		font-size:1.75em;
+	}
+}
+
+body.home strong{
+	color:#333;
+}
